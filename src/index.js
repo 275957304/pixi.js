@@ -4,7 +4,6 @@ export * from './polyfill';
 // export core
 export * from './core';
 
-// export libs
 import deprecation from './deprecation';
 import * as accessibility from './accessibility';
 import * as extract from './extract';
@@ -49,4 +48,6 @@ if (typeof deprecation === 'function')
 
 // Always export PixiJS globally.
 global.PIXI = exports; // eslint-disable-line
+
+
 
